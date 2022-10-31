@@ -1,0 +1,19 @@
+$bg: white;
+$title: 32px;
+
+.box {
+  margin-top: 10px;
+  h2 {
+    color: blue;
+    &:hover {
+      color: purple;
+    }
+  }
+  button {
+    color: brown;
+  }
+  &:hover {
+    background: green;
+  }
+  background: $bg;
+}
